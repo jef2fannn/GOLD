@@ -84,7 +84,7 @@ CONFIG: dict[str, Any] = {
     "ATR_TP3_MULT": 4.5,
     "MIN_ATR_PCT": 0.04,
     "ADX_TREND_MIN": 18.0,
-    "MIN_CONFIDENCE": float(os.environ.get("MIN_CONFIDENCE", "6.0")),
+    "MIN_CONFIDENCE": float(os.environ.get("MIN_CONFIDENCE", "5.1")),
     "SWING_LOOKBACK": 60,
     "SWING_STRENGTH": 3,
     "FIB_LEVELS": [0.236, 0.382, 0.5, 0.618, 0.786],
